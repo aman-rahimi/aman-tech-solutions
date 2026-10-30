@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aman Tech Solutions | Serviços de TI</title>
+
+    <meta name="description" content="Serviços de suporte técnico, desenvolvimento web e soluções de tecnologia.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #101d35, #1769aa);
+            color: white;
+            padding: 110px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #142b48;
+        }
+
+        .service-card, .project-card {
+            border: none;
+            border-radius: 12px;
+            transition: 0.3s;
+            height: 100%;
+        }
+
+        .service-card:hover, .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .icon {
+            font-size: 38px;
+        }
+
+        .contact-section {
+            background: #eef3f8;
+        }
+
+        footer {
+            background: #101d35;
+            color: white;
+        }
+
+        .btn-custom {
+            background: #0d6efd;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+        }
+
+        .btn-custom:hover {
+            background: #084298;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                Aman Tech Solutions
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- INÍCIO -->
+    <section class="hero text-center" id="inicio">
+        <div class="container">
+
+            <h1>Aman Tech Solutions</h1>
+
+            <h3 class="mt-3">
+                Tecnologia, Suporte e Desenvolvimento Web
+            </h3>
+
+            <p class="mt-4">
+                Soluções tecnológicas para pessoas e pequenas empresas.
+                Qualidade, compromisso e inovação.
+            </p>
+
+            <a href="#contato" class="btn-custom d-inline-block mt-3">
+                Entre em Contato
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+
+            <h2 class="section-title text-center mb-4">
+                Sobre Mim
+            </h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-9 text-center">
+
+                    <p>
+                        Sou profissional da área de Tecnologia da Informação,
+                        com formação em Ciência da Computação e experiência
+                        em suporte técnico, infraestrutura de TI, redes
+                        e desenvolvimento web.
+                    </p>
+
+                    <p>
+                        Tenho conhecimentos em Windows, Linux, manutenção
+                        de computadores, resolução de problemas técnicos,
+                        HTML, CSS, PHP, Laravel e bancos de dados SQL.
+                    </p>
+
+                    <p>
+                        Meu objetivo é oferecer soluções tecnológicas
+                        eficientes, com responsabilidade, organização
+                        e foco nas necessidades dos clientes.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container">
+
+            <h2 class="section-title text-center mb-5">
+                Meus Serviços
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card service-card shadow-sm p-4 text-center">
+
+                        <div class="icon">💻</div>
+
+                        <h5 class="mt-3">Suporte Técnico</h5>
+
+                        <p>
+                            Suporte remoto, instalação de programas,
+                            configuração de computadores e resolução
+                            de problemas de hardware e software.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card service-card shadow-sm p-4 text-center">
+
+                        <div class="icon">🌐</div>
+
+                        <h5 class="mt-3">Desenvolvimento Web</h5>
+
+                        <p>
+                            Criação e manutenção de sites utilizando
+                            HTML, CSS, Bootstrap, PHP e Laravel.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card service-card shadow-sm p-4 text-center">
+
+                        <div class="icon">🔧</div>
+
+                        <h5 class="mt-3">Redes e Infraestrutura</h5>
+
+                        <p>
+                            Configuração de redes, equipamentos,
+                            conectividade e suporte à infraestrutura
+                            de tecnologia.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="py-5">
+        <div class="container">
+
+            <h2 class="section-title text-center mb-5">
+                Meus Projetos
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm p-4">
+
+                        <h5>Website Institucional</h5>
+
+                        <p>
+                            Projeto de criação de um site moderno,
+                            responsivo e adaptado para pequenas empresas.
+                        </p>
+
+                        <span class="badge bg-primary">
+                            HTML | CSS | Bootstrap
+                        </span>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm p-4">
+
+                        <h5>Sistema Web</h5>
+
+                        <p>
+                            Desenvolvimento de aplicações web
+                            para organização e gerenciamento de informações.
+                        </p>
+
+                        <span class="badge bg-success">
+                            PHP | Laravel | SQL
+                        </span>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card project-card shadow-sm p-4">
+
+                        <h5>Suporte de TI</h5>
+
+                        <p>
+                            Exemplos de serviços de manutenção,
+                            configuração e suporte técnico.
+                        </p>
+
+                        <span class="badge bg-dark">
+                            Help Desk | Windows | Linux
+                        </span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="text-center text-muted mt-4">
+                Os projetos apresentados são exemplos demonstrativos
+                de serviços e conhecimentos.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact-section py-5">
+        <div class="container">
+
+            <h2 class="section-title text-center mb-4">
+                Entre em Contato
+            </h2>
+
+            <p class="text-center mb-4">
+                Precisa de suporte técnico ou de um site para sua empresa?
+                Entre em contato comigo.
+            </p>
+
+            <div class="text-center">
+
+                <!-- SUBSTITUA PELO SEU NÚMERO REAL -->
+                <a href="https://wa.me/5511999999999"
+                   target="_blank"
+                   class="btn btn-success btn-lg">
+                    Conversar pelo WhatsApp
+                </a>
+
+                <p class="mt-4">
+                    E-mail: SEU_EMAIL_AQUI
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer class="text-center py-4">
+        <div class="container">
+
+            <h5>Aman Tech Solutions</h5>
+
+            <p class="mb-1">
+                Tecnologia e soluções digitais.
+            </p>
+
+            <small>
+                © 2026 Aman Tech Solutions. Todos os direitos reservados.
+            </small>
+
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
